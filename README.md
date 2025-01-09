@@ -9,27 +9,16 @@ This repository hosts a comprehensive language translation application designed 
 3. Intuitive Interface: Built with Streamlit, offering a seamless user experience.
 4. Customizable and Extendable: Easy to modify and adapt for other language pairs or additional features.
 
-# Installation and Setup
-
-Prerequisites
-Ensure you have the following installed:
-
-Python 3.9
 # Set Up Hugging Face Token:
 
-Obtain a Hugging Face API token by signing up here.
-Replace the placeholder in app.py:
-os.environ['HF_TOKEN'] = 'your_hugging_face_token'
+1. Obtain a Hugging Face API token by signing up here.
+2. Replace the placeholder in app.py:
+3. os.environ['HF_TOKEN'] = 'your_hugging_face_token'
 
 # Run the Application:
 Launch the Streamlit application by executing the following command:
 
 streamlit run app.py
-
-# Access the App:
-Open your browser and navigate to:
-
-http://localhost:8501
 
 # Usage Guide
 
